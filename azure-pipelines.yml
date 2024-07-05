@@ -6,7 +6,8 @@
 trigger:
 - main
 
-pool: Azure Pipelines
+pool:                          #created self hosted agent pool name 
+  vmImage: ubuntu-latest 
 
 steps:
 - task: Maven@3
